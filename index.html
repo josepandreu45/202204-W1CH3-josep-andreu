@@ -8,10 +8,8 @@
     <link rel="icon" href="images/logo2.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Space+Mono&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@400;800&family=Space+Mono&display=swap"
       rel="stylesheet"
@@ -19,25 +17,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="titulo">
-      <p>PET ACTIVITIES</p>
-      <h1>Take a closer look</h1>
-    </div>
-    <div class="viewall">
-      <a href=""> view all</a>
-    </div>
-    <div class="imagenes">
-      <img
-        src="/images/01.jpg"
-        alt="imagen de un perrito bebe mordiendo juguete"
-      />
+    <div class="container">
+      <div class="titulo">
+        <p class="titulo__principal">PET ACTIVITIES</p>
+      </div>
+      <div class="header">
+        <h1>Take a closer look</h1>
+        <button class="button">VIEW ALL</button>
+      </div>
 
-      <img src="/images/02.jpg" alt="imagen de gatito asomado por una manta" />
-
-      <img
-        src="/images/03.jpg"
-        alt="imagen de un perrito corriendo po la montaña"
-      />
+      <div class="imagenes">
+        <section class="imagen1">
+          <img
+            src="images/01.jpg"
+            alt="imagen de un perrito bebe mordiendo juguete"
+          />
+        </section>
+        <section class="imagen2">
+          <img
+            src="images/02.jpg"
+            alt="imagen de gatito asomado por una manta"
+          />
+        </section>
+        <section class="imagen3">
+          <img
+            src="images/03.jpg"
+            alt="imagen de un perrito corriendo po la montaña"
+          />
+        </section>
+      </div>
     </div>
   </body>
 </html>
