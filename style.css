@@ -1,24 +1,30 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: "Nunito", sans-serif;
 }
+.container {
+  height: 800px;
+}
+
 .titulo {
-  margin-left: 50px;
+  display: flex;
   font-weight: bold;
   color: #ff8000;
   font-size: 20px;
+  margin-left: 50px;
 }
 
 .header {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   font-weight: bold;
-  margin-left: 50px;
   font-size: 30px;
+  margin-left: 50px;
 }
+
 .button {
   font-family: "Nunito", sans-serif;
   margin-top: 40px;
@@ -30,4 +36,19 @@ body {
   color: #ffffff;
   border-radius: 0 35% 35% 35%;
   border: none;
+}
+
+.imagenes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.imagen1 {
+  display: flex;
+}
+.imagen2 {
+  display: flex;
+}
+.imagen3 {
+  display: flex;
 }
